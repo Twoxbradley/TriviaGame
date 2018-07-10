@@ -27,6 +27,18 @@ h2 {
     justify-content: center;
 }
 
+#gameQuestions {
+    float: left;
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    margin-left: 50px;
+    background-color: beige;
+    margin-top: 20px;
+    border: solid;
+    border-color: black;
+    justify-content: center;
+}
 p {
     margin-top: 200px;
     margin-left: 60px;
