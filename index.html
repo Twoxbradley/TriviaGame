@@ -19,18 +19,49 @@
             <div class="col-sm-12">
                 <h2>Taekwondo Trivia!</h2>
                 <img src="Assets/Images/blackbelt.png" alt="blackbelt" id="blackbelt">
-                <p id="para">Do you like Action Movies? Have you ever stuided or wanted to learn a Martial Art! Well me too! And today
-                    you'll get to learn a little more about a sport that I love - Taekwondo!
-                    Think you have what it takes to "Kick-It"!?</p>
-                <button type="button" id="startBtn" class="btn btn-primary">Start</button>
+                <div id="start-content" class="content">
+                    <p id="para">Do you like Action Movies? Have you ever stuided or wanted to learn a Martial Art! Well me too! And today
+                        you'll get to learn a little more about a sport that I love - Taekwondo! Think you have what it takes
+                        to "Kick-It"!?</p>
+                    <button type="button" id="startBtn" class="btn btn-primary">Start</button>
+                </div>
+
+                <!-- RR - added in a simple template for appending our content to later -->
+                <div id="quiz-content" class="content" style="display: none; margin-top: 200px;">
+
+                    <p>Time Remaining:
+                        <span id="time-remain"></span>
+                    </p>
+
+                    <div id="questions">
+
+                    </div>
+
+                    <button type="button" id="sub-but" class="btn btn-primary">Submit</button>
+
+                </div>
+                <div id="answer-screen" class="content" style="display: none;">
+
+                    <p>Correct Answers:
+                        <span id="correct-screen"></span>
+                    </p>
+
+                    <p>Incorrect Answers:
+                        <span id="wrong-screen"></span>
+                    </p>
+
+                    <button type="button" id="restart-btn" class="btn btn-primary">Restart Quiz</button>
+
+
+                </div>
             </div>
         </div>
     </div>
     <div>
 
-         
-            
-           
+
+
+
     </div>
     <img src="Assets/Images/TDK2.png" alt="TKD2" id="TKD2">
     </div>
@@ -41,7 +72,6 @@
         crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
 
-    
 
 
 
@@ -49,9 +79,10 @@
 
 
 
-  
 
-</script>
+
+
+    </script>
 
     <div class="footer" style="background-color:black" id="footer">
         <h5>Powered by Ninja-Foo!</h5>
