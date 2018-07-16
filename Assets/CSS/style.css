@@ -50,7 +50,7 @@ p {
     margin-top: 200px;
 }
 
-.footer {
+#footer {
     color: white;
     font-family: 'Shojumaru', cursive;
     background-color: black;
@@ -65,7 +65,7 @@ p {
     height: 580px;
     width: 600px;
     margin-left: 660px;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .btn {
